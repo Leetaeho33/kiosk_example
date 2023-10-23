@@ -12,7 +12,7 @@ public class OrderPage extends Page{
         System.out.println("[ Orders ]");
         cart.showCart();
         System.out.println("[ Total ]");
-        System.out.println(cart.getTotalPrice()+"원");
+        System.out.println(cart.getTotalPrice()+"천원");
     }
 
     public void getLastForm(){

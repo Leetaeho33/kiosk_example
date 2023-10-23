@@ -35,7 +35,7 @@ public class Cart extends Product {
     }
     public void showCart(){
         for (int i=0; i<menuName.size(); i++){
-            System.out.println(menuName.get(i) + " " + menuCount.get(i) + "개 " + menuPrice.get(i) + "원 " + menuExplain.get(i));
+            System.out.println(menuName.get(i) + " " + menuCount.get(i) + "개 " + menuPrice.get(i) + "천원 " + menuExplain.get(i));
         }
     }
 

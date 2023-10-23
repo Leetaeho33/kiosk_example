@@ -7,7 +7,7 @@ public class PurchasePage extends MenuPage{
     }
     public PurchasePage(){}
     public void purchaseMenu(List<Product> products, int index) {
-        System.out.println(products.get(index).getMenuName() +"   " + products.get(index).getMenuExplain() +"   " + products.get(index).getPrice());
+        System.out.println(products.get(index).getMenuName() +" " + products.get(index).getMenuExplain() +" " + products.get(index).getPrice()+"천원");
         System.out.println();
     }
     public void purchasePageBasicForm(){

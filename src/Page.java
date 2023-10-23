@@ -11,7 +11,7 @@ public class Page {
     public void getMenu(List<Menu> menu, String name){
         System.out.println("[ " + name +" MENU ]");
         for (int i=0; i<menu.size(); i++){
-            System.out.println(i+1 + ". " + menu.get(i).getMenuName() + menu.get(i).getMenuExplain());
+            System.out.println(i+1 + ". " + menu.get(i).getMenuName()+ "  " + menu.get(i).getMenuExplain());
         }
         commandNumber = menu.size()+1;
         System.out.println();

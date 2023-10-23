@@ -10,7 +10,8 @@ public class MenuPage extends Page{
     public void getProductMenu(List<Product> products, String name) {
         System.out.println("[ " + name + " MENU ]");
         for (int i = 0; i < products.size(); i++) {
-            System.out.println(i + 1 + ". " + products.get(i).getMenuName() + products.get(i).getMenuExplain() + products.get(i).getPrice());
+            System.out.println(i + 1 + ". " + products.get(i).getMenuName() + "  " + products.get(i).getMenuExplain() + "  "
+                    + products.get(i).getPrice()+ "천원");
         }
         commandNumber = products.size() + 1;
         System.out.println();
